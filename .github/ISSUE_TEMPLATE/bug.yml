@@ -1,4 +1,4 @@
-samplename: バグ
+name: バグ
 description: バグや不具合を報告するためのテンプレート
 title: "[Bug] "
 labels: ["bug"]
