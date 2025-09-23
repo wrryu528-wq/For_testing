@@ -1,0 +1,46 @@
+samplename: バグ報告
+description: バグや不具合を報告するためのテンプレート
+title: "[Bug] "
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ありがとうございます！バグの詳細を記入してください。
+
+  - type: input
+    id: environment
+    attributes:
+      label: 発生環境
+      description: OSやブラウザ、バージョンなど
+      placeholder: 例）Windows 11, Chrome 120
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: バグを再現する手順をできるだけ詳しく記載してください
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待される動作
+      description: 本来どう動作してほしいか
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の動作
+      description: 実際に発生した動作
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: スクリーンショット
+      description: 必要に応じて画像を添付してください
+      placeholder: ドラッグ＆ドロップで画像を追加できます
