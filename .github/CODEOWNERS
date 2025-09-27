@@ -1,0 +1,8 @@
+# すべてのファイルに対して @ryunosuke をオーナーにする
+* @ryunosuke
+
+# 特定のディレクトリに対してチームを指定
+/docs/ @ryunosuke
+
+# 特定のファイルに対して複数人を指定
+README.md @ryunosuke @test
