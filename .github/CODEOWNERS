@@ -1,8 +1,8 @@
 # すべてのファイルに対して @ryunosuke をオーナーにする
-* @ryunosuke
+* @wrryu528-wq
 
 # 特定のディレクトリに対してチームを指定
-/docs/ @ryunosuke
+/docs/ @wrryu528-wq
 
 # 特定のファイルに対して複数人を指定
-README.md @ryunosuke @test
+README.md @wrryu528-wq @test
