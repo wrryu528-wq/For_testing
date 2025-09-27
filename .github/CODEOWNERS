@@ -6,4 +6,4 @@
 /github/workflows/SECURITY.md @wrryu528-wq
 
 # 特定のファイルに対して複数人を指定
-/docs/.gitignore @wrryu528-wq @test
+/docs/.gitignore @wrryu528-wq @Ryu-entec
