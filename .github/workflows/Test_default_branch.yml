@@ -1,0 +1,12 @@
+name: Test Default Branch Variable
+
+on:
+  push:
+    branches: [ $default-branch ]
+
+jobs:
+  test-default-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo message
+        run: echo "This workflow is attempting to use a dynamic branch name in the trigger."
