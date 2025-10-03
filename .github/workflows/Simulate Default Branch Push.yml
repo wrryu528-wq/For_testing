@@ -2,7 +2,7 @@ name: Simulate Default Branch Push
 
 on:
   push:
-    branches: [ main ]
+#    branches: [ main ]
 
 jobs:
   test-default-branch:
